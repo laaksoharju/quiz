@@ -29,7 +29,7 @@
     </div>
     <div :class="['overlay', feedbackColor]" v-show="end > 0">
       <h1>
-        Grattis spelare {{end}}!!!
+        Grattis spelare {{end}}! {{Math.max(player1, player2)}} - {{Math.min(player1, player2)}}!
       </h1>
       <p>
         Du kan uppenbarligen mest om hushållsapparaters effektanvändning! Eller var du kanske bara snabbast på att svara? :-)
@@ -150,12 +150,13 @@ export default {
         if (d.answer === this.correct) {
           this["player" + d.player] += 1;
           this.correctFeedback = "Spelare " + d.player + " svarade rätt!"
+          this.feedbackColor = "correct";
         }
         else {
           this["player" + d.player] -= 1;
           this.correctFeedback = "Spelare " + d.player + " svarade tyvärr fel!"
+          this.feedbackColor = "wrong";
         }
-        this.feedbackColor = "player" + d.player;
         this.answered = true;
       }
     }
@@ -205,7 +206,13 @@ export default {
     background-color: deeppink;
   }
   .player2 {
-    background-color: limegreen;
+    background-color: blue;
+  }
+  .correct {
+    background-color: forestgreen;
+  }
+  .wrong {
+    background-color: red;
   }
   .neutral {
     background-color: darkgray;
