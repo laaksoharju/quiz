@@ -1,4 +1,4 @@
-# cars
+# quiz
 
 ## Project setup
 ```
