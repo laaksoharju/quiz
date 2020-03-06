@@ -1,21 +1,23 @@
 <template>
   <div class="wrapper">
-    <h2>FRÅGESPORT</h2>
-    <h1>APPARATERS EFFEKTANVÄNDNING</h1>
+    <h1>VILKEN APPARAT ANVÄNDER MEST EL?</h1>
     <p>
-      Det här är en tävling mellan två deltagare. Båda får två knappar var att välja svarsalternativ med.
-    </p>
-    <p>
-      Ni kommer att få se två bilder på vanliga hushållsapparater. Er uppgift är att avgöra vilken av dessa som har högst effektanvändning, eller enklare uttryckt, vilken som använder mest el när de är igång.
-    </p>
-    <p>
-      Om ni tror att det är den vänstra apparaten så trycker ni på gul knapp och om ni tror att det är den högra apparaten trycker ni på blå knapp.
+      Det här är en tävling mellan två deltagare med två svarsalternativ.
     </p>
     <p>
       Bara den som är först med att svara rätt får poäng så det är värt att vara snabb. Men var inte för snabb för om du svarar fel så får du minuspoäng!
     </p>
+    <h2>HUR FUNGERAR DET?</h2>
     <p>
-      Starta tävlingen genom att trycka på "Nästa"!
+      Ni kommer att få se två bilder på vanliga hushållsapparater. Er uppgift är att avgöra vilken av dessa som har högst effektanvändning, eller enklare uttryckt, vilken som använder mest el när den är igång.
+    </p>
+    <h2>HUR GÖR JAG?</h2>
+    <ul>
+      <li>Håll en hand på folieremsan närmast bordskanten. Hela tiden.</li>
+      <li>Om du tror att det är den vänstra apparaten så trycker ni på vänstra "folieknappen" på din spelarmatta och om du tror att det är den högra apparaten trycker du på den högra.</li>
+    </ul>
+    <p>
+      Starta tävlingen genom att trycka på "NÄSTA"!
     </p>
   </div>
 </template>
